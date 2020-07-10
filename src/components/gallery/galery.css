@@ -1,0 +1,127 @@
+.gallery {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+    color: #91939E;
+}
+
+.galleryContainer {
+    padding: 1rem 18vw;
+}
+
+
+/*galleryMenu*/
+.galleryNav {
+    margin-bottom: 1.5rem;
+}
+
+.galleryMenu {
+    list-style: none;
+    display: flex;
+}
+
+.galleryMenuLink {
+    margin-right: 5px;
+    padding: 0.6rem 2rem;
+    background-color: #F7F7F7;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 7px;
+    border: 1px solid transparent;
+    color: #91939E;
+    font-size: 0.75rem;
+}
+
+.galleryMenuLink:hover {
+    border: 1px solid #FC6228;
+}
+
+.activeGalleryMenuLink {
+    background-color: #fff;
+    border: 1px solid #FC6228;
+}
+
+/*galleryMenu End*/
+
+
+/*itemsQuantity*/
+.itemsQuantity {
+    font-size: 1rem;
+}
+
+/*itemsQuantity End*/
+
+/*filter block*/
+.filterBlock{
+    position: absolute;
+    left: 0;
+    top: 12%;
+    width: 16vw;
+    height: 152rem;
+    border-bottom: 1px solid #F3E9E9;
+    border-right: 1px solid #F3E9E9;
+    background-color: #fff;
+    padding: 0.5rem 0.5rem 0 1rem;
+}
+.filterHeader{
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    background-color: #F7F7F7;
+    padding-left: 2rem;
+}
+.titleBlock{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+}
+.filterTitle{
+    color: #FA251E;
+    font-size: 0.875rem;
+    margin-left: 1.2rem;
+}
+.filterBtn{
+    border: none;
+    outline: none;
+    font-size: 1.5rem;
+    background-color: transparent;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.filterSection{
+
+}
+.dropDownTitleBlock{
+    font-size: 0.75rem;
+    color: #D0D2D6;
+    display: flex;
+    padding-left: 7px;
+    margin: 1.25rem 0;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+}
+.dropDownIcon{
+    color: #000;
+    font-weight: 700;
+    margin-right: 1rem;
+}
+.dropDownCategoryBlock{
+    padding-left: 2.25rem;
+}
+.dropDownCategory{
+    display: flex;
+}
+.categoryInput{
+    margin-right: 1rem;
+    background: linear-gradient(to right, #FC6228, #F11818);
+}
+.checkboxTitle{
+    color: #707070;
+    font-size: 0.75rem;
+}
+/*filter block End*/
