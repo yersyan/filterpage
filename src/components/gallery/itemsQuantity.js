@@ -1,7 +1,7 @@
 import React from "react";
 
-export const ItemsQuantity = () => {
+export const ItemsQuantity = ({gallery}) => {
     return <div className="itemsQuantity">
-        {`${241000} items`}
+        {`${gallery.length} items`}
     </div>
 }

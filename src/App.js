@@ -13,7 +13,6 @@ function App() {
           <div className="galleryPage">
               <Header/>
               <SearchBlock/>
-              <FilterBlock/>
               <Gallery/>
               <Footer/>
           </div>
